@@ -1,0 +1,11 @@
+--- run-sniper	2017-01-01 14:02:01.547388469 +0800
++++ run-sniper-modified	2017-01-01 14:02:42.847388900 +0800
+@@ -284,7 +284,7 @@
+     
+     applications = []
+     for app_id, (package, programname, inputsize, app_nthreads) in enumerate(benchmarks):
+-      program = __import__(package).Program(programname, int(app_nthreads), inputsize, ['force_nthreads'])
++      program = __import__(package).Program(programname, int(app_nthreads), inputsize, [''])
+       if program.rungraphiteoptions():
+         print 'Program', programname, 'requires simulator options to run.  This is currently unsupported.'
+         sys.exit(1)

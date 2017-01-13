@@ -1,0 +1,1 @@
+sudo apt-get install zlib1g-dev libbz2-dev g++ libsqlite3-dev libboost-dev m4 xsltproc libx11-dev libxext-dev libxt-dev libxmu-dev libxi-dev gfortran
