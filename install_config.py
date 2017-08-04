@@ -95,8 +95,12 @@ for app in app_list :
 
 benchmarks_string = benchmarks_string[:len(benchmarks_string)-1]
 
+save_benchmark_string = benchmarks_string
+
 for _ in xrange (number_of_epochs-1):
-	benchmarks_string += "," + benchmarks_string 
+	save_benchmark_string += "," + benchmarks_string 
+
+benchmarks_string = save_benchmark_string
 
 if not os.path.exists (pwd + "/" + extra_folder_name + "/" + "power") :
 	os.makedirs(pwd + "/" + extra_folder_name + "/" + "power")
