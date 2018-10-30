@@ -423,7 +423,7 @@ Implementation
 
 To implement a custom RMU, users have to override two function : `updateMTTF` and `updateAgeing`. After implementing the functions, the custom RMU is automatically available for use inside LifeSim. Below is an example of the TDDB related mechanism is implemented :
 
-File : `RMU_TDDB.h`
+File : [RMU_TDDB.h](LifeSim/common/RMU/RMU_TDDB.h)
 
 ```cpp
 
@@ -459,7 +459,7 @@ class CoreInfoTDDB : public CoreInfo
 #endif
 ```
 
-File `RMU_TDDB.cc` contains the implementation of the same :
+File [RMU_TDDB.cc](LifeSim/common/RMU/RMU_TDDB.c) contains the implementation of the same :
 
 ```cpp
 
