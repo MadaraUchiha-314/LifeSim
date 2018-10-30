@@ -10,6 +10,7 @@ jobs:
       - run:
           name: "Removing and adding correct version of gcc"
           command: "bash install_gcc.sh"
+      - run:
           name: "Install Dependencies"
           command: "bash install_dependencies.sh"
       - run:
