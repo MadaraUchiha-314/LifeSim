@@ -9,8 +9,7 @@ jobs:
       - checkout
       - run:
           name: "Removing and adding correct version of gcc"
-          command: "sudo apt-get remove gcc g++ && && sudo add-apt-repository ppa:ubuntu-toolchain-r/test && sudo apt-get update
- && sudo apt-get install gcc-4.7 g++-4.7"
+          command: "sudo apt-get remove gcc g++ && && sudo add-apt-repository ppa:ubuntu-toolchain-r/test && sudo apt-get update && sudo apt-get install gcc-4.7 g++-4.7"
       - run:
           name: "Install Dependencies"
           command: "bash install_dependencies.sh"
