@@ -1,4 +1,0 @@
-#define DEBUG_PRINT
-#define MODIFIED_CODE
-#define PERIODIC_WORKLOAD
-#define USE_RMU
