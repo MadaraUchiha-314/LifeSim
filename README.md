@@ -263,7 +263,7 @@ $ chmod +x new_run_b.sh
 $ ./new_run_b.sh
 ```
 
-This wills start the simulation of the benchmarks indicated for the required number of epochs.
+This will start the simulation of the benchmarks indicated for the required number of epochs.
 
 Temperature, power & MTTF values
 ================================
