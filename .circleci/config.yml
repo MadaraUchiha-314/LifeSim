@@ -7,7 +7,9 @@ jobs:
       - image: circleci/python:2.7
     steps:
       - checkout
-      - run: sudo apt-get install --reinstall gcc-4.4.7
+      - run:
+          name: "Removing and adding correct version of gcc"
+          command: "sudo apt-get remove gcc g++ && sudo apt-get install gcc-4.9 g++-4.9"
       - run:
           name: "Install Dependencies"
           command: "bash install_dependencies.sh"
