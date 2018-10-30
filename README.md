@@ -1,6 +1,6 @@
 # LifeSim: A lifetime reliability simulator for manycore systems
 <div align="center" >
-    <img src="images/logo.png" />
+    <img src="images/new-logo.png" />
 </div>
 
 Introduction
