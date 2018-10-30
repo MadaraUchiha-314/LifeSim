@@ -8,6 +8,12 @@ jobs:
     steps:
       - checkout
       - run:
+          name: "Removing default GCC"
+          command: "sudo update-alternatives --remove-all gcc && sudo update-alternatives --remove-all g++"
+      - run:
+          name: "Installing Required GCC"
+          command: "sudo apt-get install gcc-4.3 gcc-4.4 g++-4.3 g++-4.4"
+      - run:
           name: "Install Dependencies"
           command: "bash install_dependencies.sh"
       - run:
