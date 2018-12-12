@@ -3,6 +3,8 @@
     <img src="images/new-logo.png" />
 </div>
 
+Logo Credits : [csanthoshn](https://www.linkedin.com/in/csanthoshn/)
+
 Introduction
 ============
 
